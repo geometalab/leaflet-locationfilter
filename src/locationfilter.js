@@ -207,7 +207,7 @@ L.LocationFilter = L.Class.extend({
     },
 
     /* Draw a resize marker */
-    _drawResizeMarker: function(point, latFollower, lngFollower, otherPos) {
+    _drawResizeMarker: function(point) {
         return this._drawImageMarker(point, {
             "className": "location-filter resize-marker",
             "anchor": [7, 6],
